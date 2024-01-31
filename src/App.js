@@ -1,10 +1,8 @@
-import { useEffect, useState , useRef } from 'react';
-import './App.css';
 
+import './App.css';
 import Break from './Break';
 import Session from './Session';
 import Timer from './Timer';
-import { useSelector } from 'react-redux';
 
 
 function App() {

@@ -3,7 +3,7 @@ import { FaPlus , FaMinus} from "react-icons/fa";
 import "./Session.css"
 import { useDispatch, useSelector } from 'react-redux';
 import { decrement, increment  } from './states/sessionState/session';
-import { setSeconds, updateSeconds } from './states/secondsState/seconds';
+import { setSeconds } from './states/secondsState/seconds';
 function Session() {
  
 
