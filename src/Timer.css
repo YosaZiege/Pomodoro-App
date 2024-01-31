@@ -1,0 +1,60 @@
+#timer-label {
+  margin-top: 0;   
+}
+#current-timer{
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
+}
+
+#time-left {
+color: var(--Red-900, #471515);
+text-align: center;
+font-family: "Roboto Flex";
+font-size: 110.917px;
+font-style: normal;
+font-weight: 800;
+line-height: 85%; /* 179.279px */
+margin-bottom: 5.5rem;
+}
+#time_stop {
+display: flex;
+padding: 26.365px 39.547px;
+justify-content: center;
+align-items: center;
+gap: 13.182px;
+}
+#current-timer {
+    color: var(--Red-900, #471515);
+    text-align: center;
+    font-family: "Roboto Flex";
+    font-size: 110.917px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 85%; /* 179.279px */
+
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+
+#start_stop {
+ color: var(--Red-900, #471515);
+ margin-left: 10px;
+ margin-right: 10px;
+}
+#stop {
+    color: var(--Red-900, #471515);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#reset{
+    color: var(--Red-900, #471515);
+    margin-left: 10px;
+    margin-right: 10px;
+}
