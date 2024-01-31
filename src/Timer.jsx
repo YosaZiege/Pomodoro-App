@@ -18,7 +18,7 @@ function Timer() {
   let timerType = useSelector((state) => state.seconds.type);
   
   const seconds =useSelector((state) => state.seconds.value);
-  const timerId = useRef(null);
+  
 
   const time_format = (prop) => {
     let minutes = Math.floor(prop / 60);
