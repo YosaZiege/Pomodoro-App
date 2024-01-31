@@ -66,7 +66,7 @@ function Timer() {
     }
 
     return () => {};
-  }, [play, seconds, dispatch]);
+  }, [play, seconds, dispatch , break_ , session]);
 
   return (
     <div id="current-timer">
