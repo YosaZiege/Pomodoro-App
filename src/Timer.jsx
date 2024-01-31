@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import { FaPlay } from 'react-icons/fa';
 import { MdLoop } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux';
